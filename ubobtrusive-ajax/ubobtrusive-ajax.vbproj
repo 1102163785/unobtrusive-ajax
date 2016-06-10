@@ -92,6 +92,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="SampleForm.html" />
     <Content Include="Scripts\unobtrusive-ajax.js" />
     <Content Include="Web.config" />
   </ItemGroup>
