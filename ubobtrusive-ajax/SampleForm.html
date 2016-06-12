@@ -8,9 +8,15 @@
     <script src="Scripts/unobtrusive-ajax.js"></script>
 </head>
 <body>
-    <form action="http://www.example.com" method="post" enctype="multipart/form-data" data-ajax-withfile="true">
+    <form action="Handler1.ashx" method="post" enctype="multipart/form-data" data-ajax="true" data-ajax-method="POST">
         <input type="file" name="myfile" />
         <button type="submit">Submit</button>
     </form>
+    <p>
+        和jQuery Unobtrusive Ajax库用法相同，然而这个可以表单提交文件，原版却不能。
+    </p>
+    <p>
+        The same as you use jQuery Unobtrusive Ajax JS library, but this can post file(s) while the original edition can't.
+    </p>
 </body>
 </html>
